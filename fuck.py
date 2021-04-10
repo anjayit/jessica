@@ -23,7 +23,6 @@ def run():
 
 
 if __name__ == '__main__':
-    steal()
     for y in range(threads):
         th = threading.Thread(target=run)
         th.start()
